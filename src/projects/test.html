@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>50% Off!</title>
+    <style>
+        body {
+            font-family: Manrope;
+            width: 100%;
+            margin: 0;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+        }
+        .subcontainer {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            max-width: 670px;
+            gap: 8rem;
+            align-items: start;
+            width:100%;
+            
+        }
+        .container-body {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5.5rem;
+            width:100%;
+      
+            
+        }
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            max-width: 720px;
+            padding:4rem 0;
+            background: #ffffff;
+            text-align: left;
+        }
+        .title {
+            position:relative;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            max-width: 670px;
+            align-items: start;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: 500;
+            color: #000;
+            width:100%;
+        }
+        .title-text{   
+            max-width: 670px;
+            width: 100%;
+            line-height: 110%;
+            font-weight: 400;
+        }
+        .emoji {
+            font-size: 24px;
+        }
+        .text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #4F4F57;
+            line-height: 1.6;
+            color: #3D3D3D;
+        }
+        .button {
+            display: flex;
+            justify-content:center;
+            max-width: 670px;
+            width:100%;
+            background: #6150EF;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 1.5rem 0;
+            border-radius: 18px;
+            font-weight: 400;
+            box-shadow: 0 4px 4px rgba(70, 58, 209, 0.2);
+            border: 2px solid #9692F7;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+            cursor: pointer;
+        }
+        .social-icons {
+            display: flex;
+            margin-top: 30px;
+            align-items: center;
+            justify-content:center;
+            gap: 1rem;
+        }
+        .social-icons img {
+            width: 24px;
+            margin: 0 10px;
+        }
+        .footer {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            gap:3rem;
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+            max-width: 720px;
+            padding: 0 4rem;
+        }
+        .footer a {
+            color: #6268FF;
+            text-decoration: none;
+        }
+        .bg-vector {
+            position:absolute;
+            top: -1rem;
+            left:0;
+            pointer-events: none;
+        }
+        .logo {
+            display: flex;
+            width: 100%;
+            max-width: 670px;
+            align-items: center;
+            justify-content: start;
+            gap: 0.75rem;
+            font-size: 2.5rem;
+            font-weight:400;
+            letter-spacing: -2px;
+        }
+        .logo, .footer-logo p {
+            margin: 0rem;
+        }
+        .logopng{
+            width: fit;
+        }
+        .footnote {
+            display:flex;
+            align-items: start;
+            justify-content: center;
+            gap:4rem;
+            padding:1.5rem 0;
+            border-top: 1px solid rgba(0,0,0,0.2);
+            font-size: 1rem;
+        }
+        .footer-logo{
+            display: flex;
+            width: fit;
+            align-items: center;
+            justify-content: center;
+            gap: 0.3rem;
+            font-size: 1.5rem;
+            font-weight:400;
+            letter-spacing: -2px;
+        }
+        .footer-address {
+            display:flex;
+            flex-direction:column;
+            gap:1.5rem;
+        }
+        .footer-links {
+            display:flex;
+            gap: 0.8rem;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div style="
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 5.5rem;
+    width:100%;">
+        <div class="container-body">
+            <div class="logo">
+                <svg class="logopng" width="40" height="40" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43 21.5C43 33.3741 33.3741 43 21.5 43C9.62588 43 0 33.3741 0 21.5C0 9.62588 9.62588 0 21.5 0C33.3741 0 43 9.62588 43 21.5Z" fill="url(#paint0_linear_2289_3986)"/>
+                    <path d="M16.863 33.1207C16.6176 33.3643 16.2216 33.3643 15.9762 33.1207L7.16186 24.368C6.91403 24.1219 6.91403 23.7211 7.16186 23.475L10.692 19.9696C10.9376 19.7257 11.3341 19.726 11.5794 19.9702L15.976 24.3489C16.2214 24.5933 16.6181 24.5935 16.8637 24.3494L31.4206 9.87976C31.6659 9.63589 32.0621 9.63579 32.3076 9.87954L35.8381 13.3854C36.086 13.6315 36.086 14.0323 35.8381 14.2784L16.863 33.1207Z" fill="white"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_2289_3986" x1="21.5" y1="0" x2="21.5" y2="43" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#212121"/>
+                    <stop offset="1" stop-color="#63616E"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <p style="margin:0;">Answers<span style="color:blue;">Ai</span></p>
+            </div>
+            <div class="title">
+                <p class="title-text" style="margin:0;font-size: 64px;">Still thinking  about us?<p>
+                <p style="font-size: 24px;color: #6150EF;font-weight: 600;letter-spacing: -1px;">Here’s 50% off!</p>
+            </div>
+        </div>
+        <div class="subcontainer">
+            <div class="text">
+                It’s been a while since you left, and we miss you! If you're ready to jump back in, here’s 50% off your subscription. Don’t miss out!
+            </div>
+            <a href="#" class="button">Redeem&nbsp;<span style="font-weight: 800;">50% off</span></a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+                <a href="https://www.tiktok.com/@answersai.com">
+                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.0988 9.55205C25.9278 9.46557 25.7614 9.37077 25.6001 9.268C25.131 8.96455 24.7009 8.607 24.3191 8.20304C23.3638 7.13344 23.007 6.04834 22.8756 5.28862H22.8809C22.7711 4.65801 22.8165 4.25 22.8234 4.25H18.4722V20.7139C18.4722 20.935 18.4722 21.1535 18.4627 21.3693C18.4627 21.3962 18.4601 21.421 18.4585 21.4499C18.4585 21.4618 18.4585 21.4742 18.4559 21.4866C18.4559 21.4897 18.4559 21.4928 18.4559 21.4959C18.41 22.0866 18.2165 22.6572 17.8924 23.1576C17.5682 23.658 17.1234 24.0727 16.597 24.3654C16.0484 24.6708 15.4279 24.831 14.7967 24.8302C12.7694 24.8302 11.1264 23.2126 11.1264 21.2149C11.1264 19.2172 12.7694 17.5996 14.7967 17.5996C15.1804 17.5993 15.5618 17.6584 15.9267 17.7747L15.932 13.4395C14.8243 13.2995 13.6991 13.3856 12.6271 13.6925C11.5552 13.9993 10.5599 14.5202 9.70403 15.2223C8.95407 15.86 8.32357 16.6208 7.84092 17.4705C7.65725 17.7804 6.96426 19.0256 6.88034 21.0465C6.82756 22.1936 7.1796 23.382 7.34743 23.8732V23.8835C7.45299 24.1727 7.86203 25.1597 8.52863 25.9917C9.06616 26.6591 9.70122 27.2454 10.4134 27.7317V27.7214L10.4239 27.7317C12.5304 29.1324 14.8658 29.0404 14.8658 29.0404C15.2701 29.0244 16.6244 29.0404 18.1624 28.3272C19.8683 27.5365 20.8394 26.3584 20.8394 26.3584C21.4598 25.6545 21.9531 24.8523 22.2982 23.9863C22.6919 22.9735 22.8234 21.7588 22.8234 21.2733V12.5388C22.8761 12.5698 23.5792 13.0248 23.5792 13.0248C23.5792 13.0248 24.592 13.66 26.1722 14.0737C27.3059 14.3681 28.8333 14.4301 28.8333 14.4301V10.2033C28.2982 10.2601 27.2114 10.0949 26.0988 9.55205Z" fill="#666666"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/answersai/?hl=en">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6667 4.59378H11.3333C7.42132 4.59378 4.25 7.7651 4.25 11.6771V23.0104C4.25 26.9224 7.42132 30.0938 11.3333 30.0938H22.6667C26.5786 30.0938 29.75 26.9224 29.75 23.0104V11.6771C29.75 7.7651 26.5786 4.59378 22.6667 4.59378ZM27.2708 23.0104C27.263 25.55 25.2062 27.6068 22.6667 27.6146H11.3333C8.79375 27.6068 6.73694 25.55 6.72917 23.0104V11.6771C6.73694 9.13753 8.79375 7.08072 11.3333 7.07295H22.6667C25.2062 7.08072 27.263 9.13753 27.2708 11.6771V23.0104ZM23.7292 12.0313C24.5116 12.0313 25.1458 11.397 25.1458 10.6146C25.1458 9.83222 24.5116 9.19795 23.7292 9.19795C22.9467 9.19795 22.3125 9.83222 22.3125 10.6146C22.3125 11.397 22.9467 12.0313 23.7292 12.0313ZM17 10.9688C13.4792 10.9688 10.625 13.823 10.625 17.3438C10.625 20.8646 13.4792 23.7188 17 23.7188C20.5208 23.7188 23.375 20.8646 23.375 17.3438C23.3788 15.6519 22.7083 14.0282 21.5119 12.8318C20.3156 11.6354 18.6919 10.965 17 10.9688ZM13.1042 17.3438C13.1042 19.4954 14.8484 21.2396 17 21.2396C19.1516 21.2396 20.8958 19.4954 20.8958 17.3438C20.8958 15.1921 19.1516 13.4479 17 13.4479C14.8484 13.4479 13.1042 15.1921 13.1042 17.3438Z" fill="black" fill-opacity="0.6"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/company/answersai">
+                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.875 4.59378C5.70139 4.59378 4.75 5.54517 4.75 6.71878V27.9688C4.75 29.1423 5.70139 30.0938 6.875 30.0938H28.125C29.2986 30.0938 30.25 29.1423 30.25 27.9688V6.71878C30.25 5.54517 29.2986 4.59378 28.125 4.59378H6.875ZM12.5711 10.2643C12.5791 11.619 11.565 12.4537 10.3617 12.4477C9.22818 12.4418 8.24006 11.5393 8.24604 10.2663C8.25201 9.06899 9.1983 8.10676 10.4275 8.13465C11.6746 8.16255 12.5791 9.07696 12.5711 10.2643ZM17.8962 14.1729H14.3263H14.3243V26.2994H18.0974V26.0165C18.0974 25.4783 18.097 24.9399 18.0966 24.4015C18.0954 22.9653 18.0941 21.5275 18.1015 20.0917C18.1035 19.743 18.1194 19.3805 18.209 19.0477C18.5456 17.8046 19.6634 17.0018 20.9105 17.1991C21.7113 17.3245 22.2412 17.7888 22.4643 18.5438C22.6018 19.0159 22.6636 19.5239 22.6696 20.016C22.6857 21.5001 22.6834 22.9842 22.6812 24.4685C22.6803 24.9924 22.6795 25.5165 22.6795 26.0404V26.2974H26.4647V26.0066C26.4647 25.3662 26.4644 24.726 26.464 24.0858C26.4632 22.4857 26.4624 20.8856 26.4666 19.2849C26.4686 18.5617 26.391 17.8485 26.2136 17.1493C25.9487 16.1093 25.4009 15.2487 24.5104 14.6272C23.8788 14.1849 23.1855 13.9 22.4106 13.8681C22.3223 13.8645 22.2334 13.8597 22.144 13.8548C21.7477 13.8334 21.345 13.8116 20.9662 13.888C19.8824 14.1052 18.9303 14.6013 18.211 15.4758C18.1274 15.5761 18.0457 15.6779 17.9237 15.8299L17.8962 15.8644V14.1729ZM8.54899 26.3033H12.3043V14.1808H8.54899V26.3033Z" fill="black" fill-opacity="0.6"/>
+                    </svg>
+                </a>
+            </div>
+        <div class="footnote">
+            <div class="footer-logo">
+                <svg class="ftrlogopng" style="opacity: 60%;" height="22" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43 21.5C43 33.3741 33.3741 43 21.5 43C9.62588 43 0 33.3741 0 21.5C0 9.62588 9.62588 0 21.5 0C33.3741 0 43 9.62588 43 21.5Z" fill="url(#paint0_linear_2289_3986)"/>
+                    <path d="M16.863 33.1207C16.6176 33.3643 16.2216 33.3643 15.9762 33.1207L7.16186 24.368C6.91403 24.1219 6.91403 23.7211 7.16186 23.475L10.692 19.9696C10.9376 19.7257 11.3341 19.726 11.5794 19.9702L15.976 24.3489C16.2214 24.5933 16.6181 24.5935 16.8637 24.3494L31.4206 9.87976C31.6659 9.63589 32.0621 9.63579 32.3076 9.87954L35.8381 13.3854C36.086 13.6315 36.086 14.0323 35.8381 14.2784L16.863 33.1207Z" fill="white"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_2289_3986" x1="21.5" y1="0" x2="21.5" y2="43" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#212121"/>
+                    <stop offset="1" stop-color="#63616E"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <p>Answers<span style="font-weight:500;">Ai</span></p>
+            </div>
+            <div class="footer-address">
+                <p style="margin:0;">AnswersAi, 5164 Alhama Dr, Woodland Hills, California 91364, United States</p>
+                <div class="footer-links">
+                    <a>Unsubscribe</a>
+                    <a>Support</a>
+                </div>
+                </div>
+            </div>
+            <svg class="bg-vector" viewBox="0 0 744 1041" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M269.647 1091.5C278.327 1090.21 282.781 1085.29 288.87 1081.95C376.256 1034.11 460.608 984.858 542.05 934.503C669.34 855.799 794.188 774.574 888.18 684.684C902.566 670.926 917.328 657.106 927.112 642.383C931.198 636.234 935.768 628.573 929.18 622.985C924.412 618.941 910.563 619.57 901.319 620.508C879.467 622.725 859.261 627.921 838.663 632.171C695.926 661.617 560.31 698.981 421.847 732.908C351.166 750.226 278.336 768.972 201.395 778.653C170.46 782.546 156.975 780.591 170.371 763.425C186.31 742.999 204.701 729.513 231.689 710.73C285.809 673.061 348.863 636.032 407.369 600.384C511.536 536.917 624.351 473.768 708.606 402.959C719.241 394.021 766.163 354.211 749.728 336.002C737.827 322.818 674.571 323.112 658.724 323.191C589.872 323.534 522.125 332.376 453.601 334.552C450.458 334.652 425.142 335.411 420.509 332.135C413.041 326.855 430.344 313.162 432.432 311.589C454.681 294.813 496.967 272.133 522.705 258.652C564.442 236.791 644.136 197.934 685.247 177.192C729.611 154.809 794.169 122.072 836.351 97.5452C839.121 95.9346 836 46.5 836 46.5C372.175 229.062 0.00010844 6.99996 0.00010844 6.99996" stroke="#6366F1" stroke-opacity="0.3" stroke-width="14" stroke-linecap="round"/>
+                </svg>
+                
+        </div>
+</body>
+</html>

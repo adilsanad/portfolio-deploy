@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+.root{
+  background-color: #1A1A1A;
+}
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@theme {
+  --font-neulissans: "Neulis Sans", "sans-serif";
+  --font-neulisneue: "Neulis Neue", "sans-serif";
+  --font-neuliscursive: "Neulis Cursive", "sans-serif";
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Black.otf");
+  font-weight: 1000;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Extra_Bold.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Bold.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Semi_Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Medium.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Light.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Extra_Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Thin.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Neulis Cursive";
+  src: url("../public/fonts/fonnts.com-Neulis_Cursive_Hairline.otf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Black.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Extra_Light.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Neulis Neue";
+  src: url("../public/fonts/fonnts.com-Neulis_Neue_Thin.otf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Black.otf");
+  font-weight: 1000;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Extra_Bold.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Bold.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Semi_Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Medium.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Light.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Extra_Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Thin.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Neulis Sans";
+  src: url("../public/fonts/fonnts.com-Neulis_Sans_Hairline.otf");
+  font-weight: 100;
+}
