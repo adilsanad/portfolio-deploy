@@ -1,4 +1,3 @@
-import React from "react";
 import me from '../../assets/images/me.jpg';
 
 const AboutMe = ({ id, isMobile }: { id: string, isMobile: boolean }) => {

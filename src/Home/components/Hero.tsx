@@ -1,6 +1,4 @@
-import React from "react";
-
-const Hero = ({ isMobile, className }: { isMobile: boolean, className?: string }) => {
+const Hero = ({ isMobile, className }: { isMobile?: boolean, className?: string }) => {
     return (
         <section className={`${className} col-span-full max-md:px-8 md:col-start-2 flex flex-col gap-2 text-white font-neulisneue py-24 pt-24 md:pt-48 z-20`}>
             <p className="text-2xl md:text-4xl">Hi, I'm Adil Sanad.</p>

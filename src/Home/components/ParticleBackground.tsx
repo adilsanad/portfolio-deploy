@@ -1,6 +1,5 @@
 import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
-import { loadFull } from 'tsparticles';
 import { useCallback, useMemo } from 'react';
 
 const ParticlesBackground = () => {
@@ -10,7 +9,6 @@ const ParticlesBackground = () => {
 
     const particlesinit = useCallback((engine) => {
         loadSlim(engine);
-        //loadFull(engine);
     })
     return <Particles init={particlesinit} options={options} />;
 }

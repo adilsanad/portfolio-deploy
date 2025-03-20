@@ -32,10 +32,10 @@ const AppRoutes = () => {
       <ScrollToTop />
       <Layout>
         <Routes>
-          <Route path="/portfolio-deploy/" element={<Home isMobile={isMobile} />} />
-          <Route path="/portfolio-deploy/cyclo" element={<Cyclo isMobile={isMobile} />} />
-          <Route path="/portfolio-deploy/aai-webapp-revamp" element={<AAIWebapp isMobile={isMobile}/>} />
-          <Route path="/portfolio-deploy/aai-website-refresh" element={<AAIWebsite isMobile={isMobile}/>}/>
+          <Route path="/" element={<Home isMobile={isMobile} />} />
+          <Route path="/cyclo" element={<Cyclo isMobile={isMobile} />} />
+          <Route path="/aai-webapp-revamp" element={<AAIWebapp isMobile={isMobile}/>} />
+          <Route path="/aai-website-refresh" element={<AAIWebsite isMobile={isMobile}/>}/>
         </Routes>
       </Layout>
     </Router>
